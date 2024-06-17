@@ -12,9 +12,9 @@ The principal aim of this project is to systematically assess and contrast the p
 
 + Machine Learning Model Implementation: We implement three different machine learning models:
 
-++ Logistic Regression, for its simplicity and effectiveness in binary classification tasks.
-++ Decision Trees, which provide intuitive decision rules and are capable of capturing non-linear patterns.
-++ XGBoost, known for its superior performance due to its ensemble approach that combines multiple weak learners into a strong predictive model.
+1. Logistic Regression, for its simplicity and effectiveness in binary classification tasks.
+2. Decision Trees, which provide intuitive decision rules and are capable of capturing non-linear patterns.
+3. XGBoost, known for its superior performance due to its ensemble approach that combines multiple weak learners into a strong predictive model.
 
 + Model Evaluation: Each model is rigorously evaluated using metrics such as accuracy, precision, recall, and the F1-score to determine their effectiveness in correctly identifying fraudulent transactions.
 
