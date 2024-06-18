@@ -1,4 +1,4 @@
-# Credit Card Fraud Detection Project
+# Credit Card Fraud Detection Project (PYTHON)
 ## About
 The principal aim of this project is to systematically assess and contrast the performance of three machine learning algorithms—Logistic Regression, Decision Trees, and XGBoost—in detecting fraudulent activities within credit card transactions. My workflow is structured as follows:
 
