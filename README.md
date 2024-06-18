@@ -20,8 +20,23 @@ The principal aim of this project is to systematically assess and contrast the p
 
 Through this structured workflow, I aim to determine the most effective technique for fraud detection in credit card transactions, balancing accuracy with computational efficiency.
 
+## Dataset
+Source: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?resource=download
 
+## Results
+### Logistic Regression Results
++ General Performance: Shows good generalization with a smaller gap between training and testing metrics compared to the other models. However, the accuracy and other metrics are pretty low.
+  
++ Precision and Recall: High precision indicates fewer false positives, which is good for minimizing disruption to legitimate transactions. However, recall is comparatively lower, meaning it misses a higher proportion of fraudulent transactions.
 
+### Decision Trees Results
++ General Performance: Exhibits overfitting with perfect training scores and noticeably lower testing scores. This suggests that while the Decision Tree model learns the training data very well, it doesn't generalize as effectively to new data.
+  
++ Precision and Recall: While precision remains high, the recall and F1-scores on the testing data are lower than those of XGBoost, indicating it does not balance detection and precision as effectively in new environments.
+
+### XGBoost Results
++ General Performance: Similar to Decision Trees, XGBoost shows perfect training scores, but unlike Decision Trees, it maintains higher performance on the testing data. This indicates strong learning and generalization capabilities.
++ Precision and Recall: XGBoost not only achieves high precision but also maintains higher recall and F1 scores on the testing data compared to both Logistic Regression and Decision Trees. This suggests it is better at both identifying fraud accurately and capturing a higher percentage of fraudulent transactions without as many false negatives.
 
 
 
